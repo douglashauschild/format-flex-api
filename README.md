@@ -2,6 +2,9 @@
 
 Uma API moderna e flexível para formatação de dados, construída com FastAPI.
 
+![Test Status](https://github.com/DouglasHauschild/formatflex_api/actions/workflows/test.yml/badge.svg)
+
+
 ## 📦 Funcionalidades
 
 - ✅ Formatar datas
