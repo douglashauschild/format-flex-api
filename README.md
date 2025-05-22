@@ -3,9 +3,9 @@
 Uma API moderna, flexível e leve para formatação de dados, construída com FastAPI.
 Perfeita para integrar rapidamente formatações comuns de dados em seus projetos.
 
-![Test Status](https://github.com/DouglasHauschild/formatflex_api/actions/workflows/test.yml/badge.svg)
 ![Python](https://img.shields.io/badge/python-3.11%2B-blue)
 ![Last Commit](https://img.shields.io/github/last-commit/DouglasHauschild/formatflex_api)
+![Test Status](https://github.com/DouglasHauschild/formatflex_api/actions/workflows/test.yml/badge.svg)
 
 
 ## 📦 Funcionalidades
