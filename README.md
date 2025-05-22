@@ -1,34 +1,31 @@
 # FormatFlex API
 
-Uma API moderna e flexível para formatação de dados, construída com FastAPI.
+Uma API moderna, flexível e leve para formatação de dados, construída com FastAPI.
+Perfeita para integrar rapidamente formatações comuns de dados em seus projetos.
 
 ![Test Status](https://github.com/DouglasHauschild/formatflex_api/actions/workflows/test.yml/badge.svg)
-![Deploy Status](https://github.com/DouglasHauschild/formatflex_api/actions/workflows/deploy.yml/badge.svg)
-
+![Python](https://img.shields.io/badge/python-3.11%2B-blue)
+![Last Commit](https://img.shields.io/github/last-commit/DouglasHauschild/formatflex_api)
 
 
 ## 📦 Funcionalidades
 
-- ✅ Formatar datas
-- ✅ Formatar data e hora
-- ✅ Formatar apenas hora
-- ✅ Formatar CPF
-- ✅ Formatar CNPJ
-- ✅ Formatar CEP
-- ✅ Formatar telefone (móvel e fixo)
-- ✅ Transformar texto em MAIÚSCULO
-- ✅ Transformar texto em minúsculo
+- Formatação de datas (data, hora, data e hora)
+- Formatação de CPF e CNPJ
+- Formatação de CEP
+- Formatação de telefones (fixo e móvel)
+- Conversão de texto para MAIÚSCULO e minúsculo
 
-## 🚀 Como rodar o projeto
+## 🚀 Como executar localmente
 
 ### 1. Clonar o repositório
 
 ```bash
-git clone <url-do-repositorio>
+git clone https://github.com/DouglasHauschild/formatflex_api.git
 cd formatflex_api
 ```
 
-### 2. Criar e ativar ambiente virtual (opcional, mas recomendado)
+### 2. Criar e ativar ambiente virtual (recomendado)
 ```bash
 python -m venv venv
 source venv/bin/activate  # Linux/Mac
@@ -40,18 +37,19 @@ venv\Scripts\activate     # Windows
 pip install -r requirements.txt
 ```
 
-### 4. Rodar a API
+### 4. Executar a API
 ```bash
 uvicorn app.main:app --reload
 ```
 
-# 📖 Acessar a documentação Swagger
-Abra no navegador:
+# 📖 Documentação
+Após iniciar a aplicação, acesse:
 - http://127.0.0.1:8000/docs → Swagger UI
 - http://127.0.0.1:8000/redoc → ReDoc
 
 
-# ✅ Como rodar os testes automatizados
+# ✅ Testes automatizados
+Execute os testes com:
 ```bash
 pytest
 ```
@@ -68,7 +66,7 @@ formatflex_api/
 ├── README.md
 ```
 
-# 💡 Exemplos de uso
+# 💡 Exemplo de uso
 **POST** ```/format/cpf ```
 
 Body:
@@ -79,3 +77,6 @@ Resposta:
 ```bash json
 { "formatted": "123.456.789-09" }
 ```
+
+➡️ Para mais exemplos e detalhes, consulte a demo online:
+https://formatflexapi-production.up.railway.app/docs
