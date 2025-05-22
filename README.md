@@ -42,8 +42,9 @@ uvicorn app.main:app --reload
 
 # 📖 Acessar a documentação Swagger
 Abra no navegador:
-http://127.0.0.1:8000/docs → Swagger UI
-http://127.0.0.1:8000/redoc → ReDoc
+- http://127.0.0.1:8000/docs → Swagger UI
+- http://127.0.0.1:8000/redoc → ReDoc
+
 
 # ✅ Como rodar os testes automatizados
 ```bash
@@ -51,6 +52,7 @@ pytest
 ```
 
 # 📁 Estrutura do Projeto
+```bash
 formatflex_api/
 ├── app/
 │   ├── main.py
@@ -59,9 +61,11 @@ formatflex_api/
 │   ├── test_formatters.py
 ├── requirements.txt
 ├── README.md
+```
 
 # 💡 Exemplos de uso
-**POST** /format/cpf
+**POST** ```/format/cpf ```
+
 Body:
 ```bash json
 { "value": "12345678909" }
