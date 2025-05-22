@@ -4,8 +4,8 @@ Uma API moderna, flexível e leve para formatação de dados, construída com Fa
 Perfeita para integrar rapidamente formatações comuns de dados em seus projetos.
 
 ![Python](https://img.shields.io/badge/python-3.11%2B-blue)
-![Last Commit](https://img.shields.io/github/last-commit/DouglasHauschild/formatflex_api)
-![Test Status](https://github.com/DouglasHauschild/formatflex_api/actions/workflows/test.yml/badge.svg)
+![Last Commit](https://img.shields.io/github/last-commit/douglashauschild/formatflex_api)
+![Test Status](https://github.com/douglashauschild/formatflex_api/actions/workflows/test.yml/badge.svg)
 
 
 ## 📦 Funcionalidades
@@ -21,7 +21,7 @@ Perfeita para integrar rapidamente formatações comuns de dados em seus projeto
 ### 1. Clonar o repositório
 
 ```bash
-git clone https://github.com/DouglasHauschild/formatflex_api.git
+git clone https://github.com/douglashauschild/formatflex_api.git
 cd formatflex_api
 ```
 
