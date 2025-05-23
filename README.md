@@ -16,7 +16,7 @@ Perfeita para integrar rapidamente formatações comuns de dados em seus projeto
 - Formatação de telefones (fixo e móvel)
 - Conversão de texto para MAIÚSCULO e minúsculo
 
-## 🚀 Como executar localmente
+## 🚀 Como executar o projeto
 
 ### 1. Clonar o repositório
 
@@ -80,3 +80,10 @@ Resposta:
 
 ➡️ Para mais exemplos e detalhes, consulte a demo online:
 https://formatflexapi-production.up.railway.app/docs
+
+# 🤝 Contribuindo
+1. Faça um fork.
+2. Crie sua feature branch: ```git checkout -b minha-feature```.
+3. Commit: ```git commit -m 'Minha feature'```.
+4. Push: ```git push origin minha-feature```.
+5. Abra um Pull Request.
